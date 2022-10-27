@@ -1,21 +1,22 @@
 html {
     scroll-snap-type: y mandatory;
+    scroll-padding-top: 15vh;
 }
   
 section {
     height: 100vh;
-    width: 100vw;
     scroll-snap-align: start;
-    scroll-snap-stop: always
+    scroll-snap-stop: always;
 }
 
-.floating-menu {
-    font-family: sans-serif;
-    background: yellowgreen;
-    padding: 5px;;
-    width: 130px;
-    z-index: 100;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-  }
+#header{
+    display: flex;
+}
+
+#top{
+    margin-top: 15vh;
+}
+
+.row{
+    height: 30vh
+}
