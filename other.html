@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7V1GCPJ1WB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7V1GCPJ1WB');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -8,8 +17,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Grem Creative</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="header">
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="header">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
             <img src="docs\assets\logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Grem Creative
@@ -20,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Showreel</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Showreel</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="stilts.html">Stilts</a>
@@ -32,7 +41,7 @@
                     <a class="nav-link" aria-current="page" href="bubbles.html">Bubbles</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="other.html">Everything else</a>
+                    <a class="nav-link active" aria-current="page" href="other.html">Statues and Other</a>
                   </li>
                 </ul>
               </div>
@@ -56,46 +65,58 @@
           
             <div class="col-lg-4 mb-4 mb-lg-0">
               <img src="docs\assets\other\L3.png" class="w-100 shadow-1-strong rounded mb-4 mt-4" />
-              <img src="docs\assets\other\W1.png" class="w-100 shadow-1-strong rounded mb-4" />
+              <img src="docs\assets\other\W2.png" class="w-100 shadow-1-strong rounded mb-4" />
             </div>
           </div>
         </section>
       </div>
 
-      <footer class="text-center text-lg-start bg-light text-muted">
+      <footer class="text-center text-lg-start bg-dark">
         <div class="container" id="contact">
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <!-- Left -->
-          <div class="me-5 d-none d-lg-block">
+          <div class="me-5 d-none d-lg-block text-white">
             <span>Get connected with me on social networks:</span>
           </div>
           <!-- Left -->
       
           <!-- Right -->
-          <div>
+          <div class="text-white">
             <a href="https://www.instagram.com/gremcreative/?igshid=NjIwNzIyMDk2Mg%3D%3D" target="_blank" class="me-4 text-reset">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
               </svg>
             </a>
+            <a href="https://www.facebook.com/profile.php?id=617124903" target="_blank" class="me-4 text-reset">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+            </a>
           </div>
         </section>
-        <!-- Section: Social media -->
       
-        <!-- Section: Links  -->
-        <section class="">
+        <section>
           <div class="container text-center text-md-start mt-5">
             <!-- Grid row -->
             <div class="row mt-3">
               <!-- Grid column -->
               <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-6">
                 <!-- Content -->
-                <h6 class="text-uppercase fw-bold mb-6">
+                <h6 class="text-uppercase fw-bold mb-6 text-white">
                   <i class="fas fa-gem me-6"></i>Grem Creative
                 </h6>
-                <p>
-                  I am an electrifying entertainer, skilled in fire, LED poi, stilts, and an array of captivating activities. With a passion for mesmerizing audiences, I bring the elemental power of fire to life, creating enchanting displays that leave spectators in awe. From gracefully twirling LED poi to commanding heights on stilts, I ignite events with my infectious energy and a touch of magic. With years of honed expertise, I deliver unforgettable moments, combining technical prowess, creativity, and magnetic stage presence. Prepare for dazzling fire shows, jaw-dropping LED spectacles, and an elevated experience that sets any occasion ablaze.
+                <p class="text-white">
+                  Welcome to Grem Creative:
+                  A fully insured professional Fire Performer, Stilt Walker, Statue Artist, Clown and Bubbleologist, with many years of honed expertise in multiple disciplines to bring only the best to your events!
+
+                  From graceful, yet captivating, contact fire staff and poi routines, to commanding and spectacular heights on stilts with costumes for every occassion, ignite your events with infectious energy - and just a touch of madness! 
+
+                  At Grem Creative, there is a focus to deliver unforgettable moments, combining technical prowess, creativity, and magnetic stage presence, delivering a bespoke touch to your event!
+
+                  Prepare for dazzling fire shows, jaw-dropping LED spectacles, beautiful bubbles, striking statues and an elevated experence that'll take any event to new heights!
+
+                  Contact today for a quote! 
                 </p>
               </div>
               <!-- Grid column -->
@@ -103,12 +124,26 @@
               <!-- Grid column -->
               <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-md-6 mb-6">
                 <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-6">Contact Me</h6>
-                <p><i class="fas fa-home me-6"></i> New York, NY 10012, US</p>
-                <p>
-                  <i class="fas fa-envelope me-6"></i>
-                  gremcreative@gmail.com
-                </p>
+                <h6 class="text-uppercase fw-bold mb-6 text-white">Contact Me</h6>
+                <p class="text-white">Fill in the form below or email me at: gremcreative@gmail.com</p>
+                  <div class="container">
+                    <form target="_blank" action="https://formsubmit.co/aa60fa1537c3a3b86cb91d62a34aff3c" method="POST">
+                      <div class="form-group">
+                        <div class="form-row">
+                          <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                          </div>
+                          <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="Email Address to contact you" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-outline-light">Submit Form</button>
+                    </form>
+                  </div>
               </div>
               <!-- Grid column -->
             </div>
